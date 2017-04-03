@@ -4,7 +4,8 @@ Use `npm install` para baixar todas as dependências.
 
 
 ## Criando um Schema
-1. Criar pasta dentro de /api com nome do schema 
+1. Crie uma pasta dentro de /api com nome do schema em minúsculo e singular.
+2. [teste](#padrão-schema-service-service-schema-contato)
 
 ## Padrão Schema (schema contato)
 ```
