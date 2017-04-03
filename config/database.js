@@ -1,2 +1,2 @@
 const mongoose = require('mongoose')
-module.exports = mongoose.connect('mongodb://localhost/db_blog')
+module.exports = mongoose.connect('mongodb://localhost/db_backend')

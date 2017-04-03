@@ -40,10 +40,11 @@ module.exports = Contact
 
 ## Padrão Schema Links
 ```
-const Contact = require('./contact')
+// Routes
+const `nome schema service` = require('../api/`nome schema`/`nome schema service`')
+`nome schema service`.register(router, '/`nome schema plural`')
 
-Contact.methods(['get', 'post', 'put', 'delete'])
-Contact.updateOptions({new: true, runValidators: true})
-
-module.exports = Contact
+// Routes Contact
+const contactService = require('../api/contact/contactService')
+contactService.register(router, '/contacts')
 ```
