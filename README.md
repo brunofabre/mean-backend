@@ -5,7 +5,7 @@ Use `npm install` para baixar todas as dependências.
 
 ## Criando um Schema
 1. Crie a pasta `/api`.
-2. Crie uma pasta dentro de /api com nome do schema (lowerCamelCase).
+2. Crie uma pasta dentro de `/api` com nome do schema (lowerCamelCase).
 3. Crie um arquivo `.js` com o mesmo nome da pasta (lowerCamelCase) e siga [este padrão](#padrão-schema).
 4. Crie um arquivo `.js` com o nome do arquivo anterior (lowerCamelCase) terminado de Service e siga [este padrão](#padrão-schema-service).
 5. Adicione os links ao arquivo `config/routes.js` seguindo [este padrão](#padrão-schema-links).
